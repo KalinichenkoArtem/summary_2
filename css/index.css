@@ -1,0 +1,126 @@
+.container {
+  display: flex;
+  width: 800px;
+  background: linear-gradient(90deg, #e0f0e1, #c4e9ca, #a8c3d8);
+}
+
+section {
+  margin: 20px 30px;
+}
+
+p,
+a {
+  font-size: 14px;
+}
+
+a.link-contact-item {
+  font-size: 16px;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  padding-left: 30px;
+  list-style-type: circle;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+h2.summary-title {
+  margin: 10px 0;
+}
+
+h3,
+p,
+li {
+  font-family: "Lato", sans-serif;
+}
+
+a,
+p,
+li {
+  color: rgb(44, 43, 43);
+}
+
+svg {
+  margin-right: 10px;
+}
+
+.img {
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+.link-contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.experience-list,
+.education-list,
+.project-experience-list {
+  width: 400px;
+}
+
+.summary-text {
+  width: 400px;
+}
+
+.education-text {
+  font-weight: 700;
+}
+
+.contact-item:nth-last-child(n + 2),
+.tech-skills-item:nth-last-child(n + 2),
+.soft-skills-item:nth-last-child(n + 2),
+.languages-item:nth-last-child(n + 2),
+.experience-item:nth-last-child(n + 2),
+.education-item:nth-last-child(n + 2),
+.education-desc:nth-last-child(n + 2),
+.project-experience-item:nth-last-child(n + 2) {
+  margin-bottom: 5px;
+}
+
+.experience-item {
+  font-size: 14px;
+}
+
+.education-text {
+  margin-bottom: 5px;
+}
+
+.project-experience-list {
+  font-size: 14px;
+}
+
+.name {
+  margin-bottom: 12px;
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+}
+
+.desc {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.project-experience-list p {
+  margin: 5px 0;
+}
+
+.project-link {
+  font-weight: 700;
+}
+
+.experience-desc {
+  margin-top: 5px;
+  font-weight: 700;
+}
