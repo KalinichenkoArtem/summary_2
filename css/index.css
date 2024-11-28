@@ -1,7 +1,7 @@
 .container {
   display: flex;
   width: 800px;
-  background: linear-gradient(90deg, #e0f0e1, #c4e9ca, #a8c3d8);
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(184, 184, 184));
 }
 
 section {
